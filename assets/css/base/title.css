@@ -1,0 +1,22 @@
+h1 {
+    font-size: 4em;
+    font-family: 'Suez One', serif;
+}
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 3em;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    h1 {
+        font-size: 2em;
+    }
+}

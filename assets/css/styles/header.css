@@ -1,0 +1,41 @@
+.header {
+    align-items: center;
+    background-image: url(../../img/destaques1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 65vh;
+    /* text-align: center; */
+}
+
+.h1 {
+    padding-left: 2em;
+}
+
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+
+@media screen and (max-width:768px) {
+    .header {
+        height: 50vh;
+    }
+    
+    .h1 {
+        padding-left: 1.5em;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .header {
+        height: 45vh;
+        justify-content: center;
+    }
+    
+    .h1 {
+        padding-left: 0;
+    }
+}
