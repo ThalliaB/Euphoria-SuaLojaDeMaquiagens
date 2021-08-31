@@ -36,6 +36,12 @@
 }
 
 @media screen and (max-width: 375px) {
+    .h1 {
+        padding-left: 1.3em;
+    }
+}
+
+@media screen and (max-width: 320px) {
     .header {
         justify-content: center;
     }
