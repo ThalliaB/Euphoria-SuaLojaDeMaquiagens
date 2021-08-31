@@ -31,11 +31,7 @@
 
 @media screen and (max-width: 425px) {
     .header {
-        height: 45vh;
-        justify-content: center;
-    }
-    
-    .h1 {
-        padding-left: 0;
+        height: 38vh;
+        /* justify-content: center; */
     }
 }
