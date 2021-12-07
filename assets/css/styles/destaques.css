@@ -1,0 +1,37 @@
+.p {
+    margin-bottom: 1em;
+}
+
+.imagemDestaques {
+    width: 100vw;
+    margin-bottom: 1em;
+}
+
+@media screen and (min-width: 768px) {
+    .imagemDestaques {
+        width: 90vw;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .destaques {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 5em;
+    }
+
+    .imagemDestaques {
+        width: 50vw;
+        padding-left: 2em;    
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+
+    
+    
+    
+}

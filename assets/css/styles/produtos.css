@@ -1,0 +1,18 @@
+.h2 {
+    text-align: center;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produto__imagem, .produto1 {
+    max-width: 144px;
+}
+
+.produto {
+    border: 1px solid gray;
+    margin-bottom: 1em;
+}
