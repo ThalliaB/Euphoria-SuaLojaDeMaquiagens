@@ -1,0 +1,9 @@
+p {
+    font-size: 1em;
+}
+
+@media screen and (min-width: 1024px) {
+    p {
+        font-size:1.5em;
+    }
+}
