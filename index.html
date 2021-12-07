@@ -23,8 +23,11 @@
     <link rel="stylesheet" href="assets/css/base/color.css">
     <link rel="stylesheet" href="assets/css/base/title.css">
     <link rel="stylesheet" href="assets/css/base/body.css">
+    <link rel="stylesheet" href="assets/css/base/p.css">
     <link rel="stylesheet" href="assets/css/styles/header.css">
     <link rel="stylesheet" href="assets/css/styles/search.css">
+    <link rel="stylesheet" href="assets/css/styles/destaques.css">
+    <link rel="stylesheet" href="assets/css/styles/produtos.css">
     
     <title>Euphoria</title>
     
@@ -34,16 +37,65 @@
     <header class="header">
         <h1 class="h1">Euphoria</h1>
     </header>
-
+    
     <main>
         <!-- search -->
         <section class="search">
-    
+            
             <form action="#" method="POST" class="search-content">
                 <input class="search__description" type="text" placeholder="Digite sua pesquisa" required>
                 <button class="search__button" type="submit"><i class="fas fa-search"></i></button>
             </form>
             
+        </section>
+        
+        <section class="destaques">
+            
+            <div>
+                <h2 class="h2">Confira nossos produtos</h2>
+                <p class="p">Só aqui você encontra o que está na moda, os últimos lançamentos do que há de melhor.</p>
+            </div>
+            
+            <div>
+                <img class="imagemDestaques" src="./assets/img/destaques2.jpg" alt="">
+            </div>
+            
+        </section>
+        
+        <section class="cosmeticos">
+            
+            <h2 class="h2">Veja nossa área de cosméticos</h2>
+            
+            <div class="produtos">
+
+                <!--PRODUTO 1 -->
+                <article class="produto produto1">
+                    <img  class="produto__imagem" src="./assets/img/produtos1.jpg" alt="Pincéis importados">
+                    <p class="p">Pincéis importados - <strong>Euphoria</strong></p>
+                    <p class="p">R$ 148,50</p>
+                </article>
+
+                <!-- PRODUTO 2 -->
+                <article class="produto produto1">
+                    <img  class="produto__imagem" src="./assets/img/produtos1.jpg" alt="Pincéis importados">
+                    <p class="p">Pincéis importados - <strong>Euphoria</strong></p>
+                    <p class="p">R$ 148,50</p>
+                    </article>
+
+                    <!-- PRODUTO 3 -->
+                <article class="produto produto1">
+                    <img  class="produto__imagem" src="./assets/img/produtos1.jpg" alt="Pincéis importados">
+                    <p class="p">Pincéis importados - <strong>Euphoria</strong></p>
+                    <p class="p">R$ 148,50</p>
+                </article>
+
+                    <!-- PRODUTO 4 -->
+                <article class="produto produto1">
+                    <img  class="produto__imagem" src="./assets/img/produtos1.jpg" alt="Pincéis importados">
+                    <p class="p">Pincéis importados - <strong>Euphoria</strong></p>
+                    <p class="p">R$ 148,50</p>
+                </article>
+            </div>
         </section>
     </main>
     
