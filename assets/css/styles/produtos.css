@@ -1,5 +1,5 @@
-.h2 {
-    text-align: center;
+#cosmeticos h2 {
+    margin: .8em 0 .4em 0;
 }
 
 .produtos {
@@ -8,11 +8,80 @@
     flex-wrap: wrap;
 }
 
-.produto__imagem, .produto1 {
-    max-width: 144px;
+.produtos > .produto  p {
+    padding: 0 .2em;
+}
+
+.produto__imagem {
+    height: 150px;
+}
+
+.produto__imagem, .produto {
+    width: 144px;
 }
 
 .produto {
-    border: 1px solid gray;
+    border: 1px double gray;
+    /* border: thick double gray; */
+    /* border-radius: 12px; */
     margin-bottom: 1em;
+    /* padding: 0 .2em */
+}
+
+@media screen and (min-width: 375px) {
+    .produto__imagem, .produto {
+        width: 160px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .produto__imagem, .produto {
+        width: 180px;
+    }
+
+    .produto__imagem {
+        height: 160px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .produto__imagem, .produto {
+        width: 160px;
+    }
+
+    #cosmeticos {
+        margin: 0 2em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .produto__imagem, .produto {
+        width: 180px;
+    }
+
+    #cosmeticos {
+        margin: 0 4em;
+    }
+
+    .produtos {
+        justify-content: center;
+    }
+
+    .produto {
+        margin: 1em;
+    }
+
+    .produto__imagem {
+        height: 170px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .produto__imagem, .produto {
+        width: 200px;
+    }
+
+    .produto__imagem {
+        height: 180px;
+    }
 }

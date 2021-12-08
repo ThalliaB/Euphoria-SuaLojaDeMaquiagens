@@ -1,25 +1,35 @@
-.header {
+#header {
     align-items: center;
     background-image: url(../../img/destaques1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    height: 65vh;
-    /* text-align: center; */
+    height: 40vh;
+    justify-content: center;
 }
 
 .h1 {
-    padding-left: 2em;
+    padding-left: 0;
 }
 
-
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 375px) {    
+    #header {
+        justify-content: flex-start;
+    }
     
+    .h1 {
+        padding-left: 1.3em;
+    }
 }
 
+@media screen and (min-width: 425px) {
+    #header {
+        height: 38vh;
+    }
+}
 
-@media screen and (max-width:768px) {
-    .header {
+@media screen and (min-width:768px) {
+    #header {
         height: 50vh;
     }
     
@@ -28,25 +38,35 @@
     }
 }
 
-
-@media screen and (max-width: 425px) {
-    .header {
-        height: 38vh;
-    }
+@media screen and (min-width: 1024px) {
+    
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 1440px) {
+    #header {
+        /* align-items: center;
+        background-image: url(../../img/destaques1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex; */
+        height: 65vh;
+        /* text-align: center; */
+    }
+    
     .h1 {
-        padding-left: 1.3em;
+        padding-left: 2em;
     }
 }
 
-@media screen and (max-width: 320px) {
-    .header {
-        justify-content: center;
-    }
 
-    .h1 {
-        padding-left: 0;
-    }
-}
+
+
+
+
+
+
+
+
+/* @media screen and (min-width: 320px) { */
+    
+    /* } */

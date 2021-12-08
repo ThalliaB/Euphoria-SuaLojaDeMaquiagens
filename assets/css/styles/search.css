@@ -1,4 +1,4 @@
-.search {
+#search {
     margin: 1.5em 0 ;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .search {
+    #search {
         margin: 1.5em 0;
     }
     
@@ -37,7 +37,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .search {
+    #search {
         /* display: flex;
         justify-content: center; */
         margin: 2em 0;

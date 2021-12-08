@@ -1,5 +1,10 @@
-.p {
+#destaques {
+    text-align: center;
+}
+
+.p__destaques {
     margin-bottom: 1em;
+    text-align: center;
 }
 
 .imagemDestaques {
@@ -13,9 +18,8 @@
     }
 }
 
-
 @media screen and (min-width: 1024px) {
-    .destaques {
+    #destaques {
         display: flex;
         justify-content: space-between;
         align-items: center;
