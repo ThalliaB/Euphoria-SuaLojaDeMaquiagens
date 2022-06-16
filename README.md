@@ -1,12 +1,12 @@
 # Euphoria, sua loja de makes!
 
-### Feito com:
+### Linguagens utilizadas:
 <div>
   <img style="width:50px" src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'>
   <img style="width:50px" src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'>
 </div>
 
-### Escrito com:
+### Programado com:
 <img style="width:50px" src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg'>
 
 ### Designer feito em:
